@@ -16,12 +16,12 @@ export default function Profesores ({ profesores }) {
             <div className="text-center mb-4">
                 <div className="flex justify-center items-center mt-4 p-3">
                     <img
-                        width={80}
-                        height={80}
+                        width={100}
+                        height={100}
                         src="/img/imagen.png"
                         alt={`Imagen de ${name}`}
                     />
-                    <h2 className="text-xl font-bold">
+                    <h2 className="text-xl font-bold uppercase">
                         {name} {lastName}
                     </h2>
                 </div>

@@ -7,6 +7,7 @@ import { toast } from 'react-toastify'
 export async function action ({ params }) {
 
     await deleteProfesor(params.id)
+    toast.success('Profesor eliminado con éxito')
     return redirect('/')
 
 }
@@ -53,16 +54,12 @@ export default function ModalProfesor () {
                     action={`/profesores/${ModalProfesor.id}/eliminar`}
                     onSubmit= {(e) => {
 
-                        if (confirm('¿Estas seguro que quieres eliminar este profesor?')) {
+                        if (!confirm('¿Estas seguro que quieres eliminar este profesor?')) {
 
                             e.preventDefault()
-                            toast.success('Profesor eliminado con éxito')
-                            handleChangeModal()
 
                         } else {
 
-                            e.preventDefault()
-                            toast.error('El profesor no fue eliminado')
                             handleChangeModal()
 
                         }

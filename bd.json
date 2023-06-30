@@ -82,10 +82,10 @@
       "nombres": "WILKAR",
       "apellidos": "MURILLO DIAZ",
       "genero": "Masculino",
-      "tipocontrato": "Tiempo Completo",
-      "tipo_id": "C.C",
+      "tipocontrato": "Catedra",
+      "tipo_id": "C.C.",
       "id": "1856816445",
-      "email": "correo@correo.com",
+      "email": "gay@correo.com",
       "direccion": "Barrio"
     },
     {
@@ -121,9 +121,7 @@
     {
       "nombres": "OSCAR CELESTINO",
       "apellidos": "POVEDA SUAREZ",
-      "genero": "Masculino",
-      "tipocontrato": "3/4 Tiempo",
-      "tipo_id": "C.C",
+      "genero": "Femenino",
       "id": "1433323897",
       "email": "correo@correo.com",
       "direccion": "Barrio"
@@ -179,24 +177,14 @@
       "direccion": "Barrio"
     },
     {
-      "nombres": "DIEGO ANDRES",
-      "apellidos": "VILLAMIZAR MUNIVE",
-      "genero": "Masculino",
-      "tipocontrato": "Medio Tiempo",
-      "tipo_id": "C.C",
-      "id": "1887866594",
-      "email": "correo@correo.com",
-      "direccion": "Barrio"
-    },
-    {
-      "nombres": "Martin Andres",
-      "apellidos": "Zosa Martinez",
+      "nombres": "Luis Alberto",
+      "apellidos": "Gonzalez Pretelt",
       "genero": "Masculino",
       "tipocontrato": "Tiempo completo",
       "tipo_id": "C.C.",
       "id": "1001897015",
       "email": "email@email.com",
-      "direccion": "El pozon"
+      "direccion": "Caracoles"
     }
   ]
 }
