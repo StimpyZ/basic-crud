@@ -1,0 +1,202 @@
+{
+  "docentes": [
+    {
+      "nombres": "ITSVAN",
+      "apellidos": "ALVEAR CARABALLO",
+      "genero": "Masculino",
+      "id": "1448272450",
+      "email": "correo@correo.com",
+      "direccion": "Barrio"
+    },
+    {
+      "nombres": "MEYLING KARINA",
+      "apellidos": "CASTRO ARGUMEDO",
+      "genero": "Femenino",
+      "tipocontrato": "Catedra",
+      "tipo_id": "C.C",
+      "id": "1916325894",
+      "email": "correo@correo.com",
+      "direccion": "Barrio"
+    },
+    {
+      "nombres": "VICTOR MANUEL",
+      "apellidos": "FLOREZ MARTINEZ",
+      "genero": "Masculino",
+      "tipocontrato": "3/4 Tiempo",
+      "tipo_id": "C.C",
+      "id": "1138746498",
+      "email": "correo@correo.com",
+      "direccion": "Barrio"
+    },
+    {
+      "nombres": "WILMER",
+      "apellidos": "FLOREZ SANCHEZ",
+      "genero": "Masculino",
+      "tipocontrato": "Tiempo Completo",
+      "tipo_id": "C.C",
+      "id": "1699866492",
+      "email": "correo@correo.com",
+      "direccion": "Barrio"
+    },
+    {
+      "nombres": "JORGE ANDRES",
+      "apellidos": "GAMARRA RODELO",
+      "genero": "Masculino",
+      "tipocontrato": "Tiempo Completo",
+      "tipo_id": "C.C",
+      "id": "1421222980",
+      "email": "correo@correo.com",
+      "direccion": "Barrio"
+    },
+    {
+      "nombres": "LUIS FELIPE",
+      "apellidos": "GUAZO AHUMEDO",
+      "genero": "Masculino",
+      "tipocontrato": "Catedra",
+      "tipo_id": "C.C",
+      "id": "1467433396",
+      "email": "correo@correo.com",
+      "direccion": "Barrio"
+    },
+    {
+      "nombres": "NELSON RAFAEL",
+      "apellidos": "JULIO MARTINEZ",
+      "genero": "Masculino",
+      "tipocontrato": "Tiempo Completo",
+      "tipo_id": "C.C",
+      "id": "1151045830",
+      "email": "correo@correo.com",
+      "direccion": "Barrio"
+    },
+    {
+      "nombres": "RICARDO JOSE",
+      "apellidos": "MARIN HOYOS",
+      "genero": "Masculino",
+      "tipocontrato": "Medio Tiempo",
+      "tipo_id": "C.C",
+      "id": "1584635838",
+      "email": "correo@correo.com",
+      "direccion": "Barrio"
+    },
+    {
+      "nombres": "WILKAR",
+      "apellidos": "MURILLO DIAZ",
+      "genero": "Masculino",
+      "tipocontrato": "Tiempo Completo",
+      "tipo_id": "C.C",
+      "id": "1856816445",
+      "email": "correo@correo.com",
+      "direccion": "Barrio"
+    },
+    {
+      "nombres": "JULIO CESAR ",
+      "apellidos": "OCHOA YEPES",
+      "genero": "Masculino",
+      "tipocontrato": "Tiempo Completo",
+      "tipo_id": "C.C",
+      "id": "1858673457",
+      "email": "correo@correo.com",
+      "direccion": "Barrio"
+    },
+    {
+      "nombres": "RODRIGO JAVIER",
+      "apellidos": "ORTEGA ROMERO",
+      "genero": "Masculino",
+      "tipocontrato": "Catedra",
+      "tipo_id": "C.C",
+      "id": "1249564462",
+      "email": "correo@correo.com",
+      "direccion": "Barrio"
+    },
+    {
+      "nombres": "CHRISTIAN DAVID",
+      "apellidos": "PEARSON GONZALEZ",
+      "genero": "Masculino",
+      "tipocontrato": "Tiempo Completo",
+      "tipo_id": "C.C",
+      "id": "1954735553",
+      "email": "correo@correo.com",
+      "direccion": "Barrio"
+    },
+    {
+      "nombres": "OSCAR CELESTINO",
+      "apellidos": "POVEDA SUAREZ",
+      "genero": "Masculino",
+      "tipocontrato": "3/4 Tiempo",
+      "tipo_id": "C.C",
+      "id": "1433323897",
+      "email": "correo@correo.com",
+      "direccion": "Barrio"
+    },
+    {
+      "nombres": "JULIAN ANDRES",
+      "apellidos": "RODRIGUEZ JULIO ",
+      "genero": "Masculino",
+      "tipocontrato": "Medio Tiempo",
+      "tipo_id": "C.C",
+      "id": "1617995228",
+      "email": "correo@correo.com",
+      "direccion": "Barrio"
+    },
+    {
+      "nombres": "CARLOS AGUSTO",
+      "apellidos": "SAN MARTIN VELASQUEZ",
+      "genero": "Masculino",
+      "tipocontrato": "Tiempo Completo",
+      "tipo_id": "C.C",
+      "id": "1149630346",
+      "email": "correo@correo.com",
+      "direccion": "Barrio"
+    },
+    {
+      "nombres": "JORGE ENRIQUE",
+      "apellidos": "SANCHEZ PRETELT",
+      "genero": "Masculino",
+      "tipocontrato": "Catedra",
+      "tipo_id": "C.C",
+      "id": "1947298868",
+      "email": "correo@correo.com",
+      "direccion": "Barrio"
+    },
+    {
+      "nombres": "JOHAN ENRIQUE",
+      "apellidos": "SUAREZ MARTINEZ",
+      "genero": "Masculino",
+      "tipocontrato": "Tiempo Completo",
+      "tipo_id": "C.C",
+      "id": "1601436022",
+      "email": "correo@correo.com",
+      "direccion": "Barrio"
+    },
+    {
+      "nombres": "ANDRES DAVID",
+      "apellidos": "TORRES PEREZ",
+      "genero": "Masculino",
+      "tipocontrato": "Catedra",
+      "tipo_id": "C.C",
+      "id": "1231015350",
+      "email": "correo@correo.com",
+      "direccion": "Barrio"
+    },
+    {
+      "nombres": "DIEGO ANDRES",
+      "apellidos": "VILLAMIZAR MUNIVE",
+      "genero": "Masculino",
+      "tipocontrato": "Medio Tiempo",
+      "tipo_id": "C.C",
+      "id": "1887866594",
+      "email": "correo@correo.com",
+      "direccion": "Barrio"
+    },
+    {
+      "nombres": "Martin Andres",
+      "apellidos": "Zosa Martinez",
+      "genero": "Masculino",
+      "tipocontrato": "Tiempo completo",
+      "tipo_id": "C.C.",
+      "id": "1001897015",
+      "email": "email@email.com",
+      "direccion": "El pozon"
+    }
+  ]
+}
