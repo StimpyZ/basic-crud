@@ -2,10 +2,11 @@ export async function getProfesores () {
 
     try {
 
-        const response = await fetch('http://localhost:3000/docentes')
+        const response = await fetch(`${import.meta.env.VITE_API_URL}/docentes`)
         const data = await response.json()
 
         return data.map(teacher => ({
+            _id: teacher._id,
             id: teacher.id,
             name: teacher.nombres,
             lastName: teacher.apellidos,
@@ -28,7 +29,7 @@ export async function getProfesorById (id) {
 
     try {
 
-        const response = await fetch(`http://localhost:3000/docentes/${id}`)
+        const response = await fetch(`${import.meta.env.VITE_API_URL}/docentes/profesor/${id}`)
         const data = await response.json()
 
         return data
@@ -45,7 +46,7 @@ export async function addProfesor (data) {
 
     try {
 
-        const response = await fetch('http://localhost:3000/docentes', {
+        const response = await fetch(`${import.meta.env.VITE_API_URL}/docentes`, {
             method: 'POST',
             body: JSON.stringify(data),
             headers: {
@@ -67,7 +68,7 @@ export async function updateProfesor (id, data) {
 
     try {
 
-        const response = await fetch(`http://localhost:3000/docentes/${id}`, {
+        const response = await fetch(`${import.meta.env.VITE_API_URL}/docentes/actualizar/${id}`, {
             method: 'PUT',
             body: JSON.stringify(data),
             headers: {
@@ -89,7 +90,7 @@ export async function deleteProfesor (id) {
 
     try {
 
-        const response = await fetch(`http://localhost:3000/docentes/${id}`, {
+        const response = await fetch(`${import.meta.env.VITE_API_URL}/docentes/eliminar/${id}`, {
             method: 'DELETE'
         })
 

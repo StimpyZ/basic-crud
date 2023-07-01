@@ -47,9 +47,9 @@ export default function Layout () {
                         </li>
                         <li className="mt-5 py-4 px-2 cursor-pointer border-l-4 border-orange-500 hover:bg-orange-300 transition-colors">
                             <Link
-                                to="/profesores/nuevo"
+                                to="/docentes"
                                 className={`${
-                                    location.pathname === '/profesores/nuevo'
+                                    location.pathname === '/docentes'
                                         ? 'text-orange-600'
                                         : 'text-black'
                                 } text-start text-black font-bold text-xl`}

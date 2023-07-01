@@ -12,7 +12,8 @@ import { getProfesorById, updateProfesor } from '../services/apiProfesores'
 
 export async function loader ({ params }) {
 
-    const profesores = await getProfesorById(params.id)
+    console.log(params)
+    const profesores = await getProfesorById(params._id)
     return profesores
 
 }
@@ -45,7 +46,7 @@ export async function action ({ request, params }) {
 
     }
 
-    await updateProfesor(params.id, data)
+    await updateProfesor(params._id, data)
     toast.success('Profesor editado con exito')
     return redirect('/')
 

@@ -22,19 +22,19 @@ const router = createBrowserRouter([
                 errorElement: <ErrorPage />
             },
             {
-                path: '/profesores/nuevo',
+                path: '/docentes',
                 element: <NuevoProfesor />,
                 action: NuevoProfesorAction,
                 errorElement: <ErrorPage />
             },
             {
-                path: '/profesores/:id/editar',
+                path: '/docentes/actualizar/:_id',
                 element: <EditarProfesor />,
                 loader: EditarProfesorLoader,
                 action: EditarProfesorAction
             },
             {
-                path: '/profesores/:id/eliminar',
+                path: '/docentes/eliminar/:_id',
                 action: DeleteProfesorAction
             }
         ]
